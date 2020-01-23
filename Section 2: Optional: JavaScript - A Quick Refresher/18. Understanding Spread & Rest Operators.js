@@ -1,0 +1,30 @@
+const person = {
+    name: 'Max',
+    age: 29,
+    greet: () => {
+        console.log('Hi, I am ' + this.name);
+    }
+};
+
+// person.greet();
+
+const hobbies = ['Sports', 'Cooking'];
+
+// for (let hobby of hobbies) {
+//     console.log(hobby);
+// }
+
+// console.log(hobbies.map(hobby => {
+//     return 'Hobby: ' + hobby;
+// }));
+
+// console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+
+// console.log(hobbies)
+
+const copiedArray = [...hobbies];
+hobbies.pop();
+console.log(copiedArray, hobbies);
+
+const toArray = (...args) => args;
+console.log(toArray(1, 2, 3, 4));
