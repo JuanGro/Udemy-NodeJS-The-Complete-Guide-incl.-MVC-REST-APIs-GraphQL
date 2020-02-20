@@ -61,8 +61,8 @@ body {
   
   button {
     font: inherit;
-    border: 1px solid #91ff00;
-    color: #91ff00;
+    border: 1px solid #00550b;
+    color: #00550b;
     background: white;
     border-radius: 3px;
     cursor: pointer;
@@ -70,7 +70,7 @@ body {
   
   button:hover,
   button:active {
-    background-color: #91ff00;
+    background-color: #00550b;
     color: white;
   }
   
